@@ -27,7 +27,6 @@ function App() {
         <div className="lines-3"></div>
       </div>
       <div className="main-content">
-        <img className="wallpaperBig" src={wallpaper}></img>
         <div className="content">
           <Switch>
             <Route path="/" exact>

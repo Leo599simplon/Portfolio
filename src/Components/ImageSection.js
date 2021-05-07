@@ -4,7 +4,9 @@ import about from "../img/about.jpg";
 function ImageSection() {
   return (
     <div className="ImageSection">
-      <div className="img">{/* <img src={about} alt="" /> */}</div>
+      <div className="img">
+        <img src={about} alt="" />
+      </div>
       <div className="about-info">
         <p className="about-text">
           Issu d’un parcours commercial mais passionné d’informatique depuis
@@ -16,7 +18,7 @@ function ImageSection() {
             <p>Nom</p>
             <p>Age</p>
             <p>Langues</p>
-            <p>hobbies</p>
+            <p>Hobbies</p>
           </div>
           <div className="right-section">
             <p>: Leo Hutin</p>

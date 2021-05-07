@@ -8,6 +8,7 @@ import wallpaper from "../img/wallpaper.jpg";
 function HomePage() {
   return (
     <div className="HomePage">
+      <img className="wallpaperBig" src={wallpaper}></img>
       <img className="wallpaper" src={wallpaper}></img>
       <header className="hero">
         <h1 className="hero-text">

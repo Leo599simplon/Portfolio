@@ -13,17 +13,17 @@ function AboutPage() {
       <Title title={"À propos de moi"} span={"À propos de moi"} />
       <ImageSection />
       <Title title={"Mes compétences"} span={"Mes compétences"} />
-      <div className="skillsContainer">
-        <SkillsSection skill={"Javascript"} progress={"60%"} width={"60%"} />
-        <SkillsSection skill={"Typescript"} progress={"30%"} width={"30%"} />
-        <SkillsSection skill={"React Js"} progress={"70%"} width={"70%"} />
-        <SkillsSection skill={"Node Js"} progress={"80%"} width={"80%"} />
-        <SkillsSection skill={"Python"} progress={"90%"} width={"90%"} />
-        <SkillsSection skill={"Lua"} progress={"40%"} width={"40%"} />
-        <SkillsSection skill={"Java"} progress={"80%"} width={"80%"} />
-        <SkillsSection skill={"Web Design"} progress={"25%"} width={"25%"} />
-        <SkillsSection skill={"UI/Ux Design"} progress={"76%"} width={"76%"} />
-      </div>
+      <ul className="compItems">
+        <SkillsSection skill={"Javascript"} />
+        <SkillsSection skill={"React Js"} />
+        <SkillsSection skill={"Wordpress"} />
+        <SkillsSection skill={"MySQL"} />
+        <SkillsSection skill={"Figma"} />
+        <SkillsSection skill={"Laravel"} />
+        <SkillsSection skill={"PHP"} />
+        <SkillsSection skill={"Web design"} />
+        <SkillsSection skill={"UI/Ux Design"} />
+      </ul>
       {/* 
       <Title title={"Services"} span={"Services"} />
       <div className="servives-container">
