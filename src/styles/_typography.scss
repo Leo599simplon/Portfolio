@@ -1,45 +1,50 @@
-.HomePage{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
+.HomePage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid white 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 60%;
 }
 
+.hero-text {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 3.6rem;
+  padding-bottom: 120px;
 
-.hero-text{
+  span {
     color: white;
-    text-align: center;
-    font-size: 3.6rem;
-    span{
-        color: #037FFF;
-    }
+  }
 }
 
-.h-sub-text{
-    text-align: center;
+.h-sub-text {
+  color: white;
+  text-align: center;
 }
 
-.icons{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1.5rem 0;
-    .icon-holder{
-        margin-right: 1rem;
-        .icon{
-           font-size: 2.8rem;
-           color: #a4acc4;
-           transition: all .4s ease-in-out;
-        }
-        .fb:hover{
-            color: blue;
-        }
-        .gh:hover{
-            color: rgba(212, 45, 212, 0.788);
-        }
-        .yt:hover{
-            color: red;
-        }
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 0;
+  .icon-holder {
+    margin-right: 1rem;
+    .icon {
+      font-size: 2.8rem;
+      color: #f7f7f7;
+      transition: all 0.4s ease-in-out;
     }
+    .li:hover {
+      color: #0e76a8;
+    }
+    .gh:hover {
+      color: rgba(134, 72, 72, 0.842);
+    }
+  }
 }
