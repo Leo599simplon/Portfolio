@@ -18,10 +18,10 @@ function HomePage() {
           Développeur en herbe / en recherche d'alternance
         </p>
         <div className="icons">
-          <Link to="test" className="icon-holder">
+          <Link to="linkedin" className="icon-holder">
             <FontAwesomeIcon icon={faLinkedin} className="icon li" />
           </Link>
-          <Link to="test" className="icon-holder">
+          <Link to="github" className="icon-holder">
             <FontAwesomeIcon icon={faGithub} className="icon gh" />
           </Link>
         </div>

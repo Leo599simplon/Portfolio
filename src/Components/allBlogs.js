@@ -9,7 +9,7 @@ const blogs = [
     id: 1,
     image: blog1,
     title: "En construction",
-    link: "https://www.facebook.com/",
+    link: "",
     date: "21",
     month: "Mar",
     year: "2020",

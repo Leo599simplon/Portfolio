@@ -15,7 +15,7 @@ const portfolios = [
     link1: "https://github.com/Leo599simplon/Shifoumi",
     icon1: <FontAwesomeIcon icon={faGithub} />,
     image: shifumi2,
-    title: "shifoumi Vanilla JS",
+    title: "Shifoumi Vanilla JS",
   },
   {
     id: 2,

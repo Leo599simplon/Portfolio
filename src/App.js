@@ -43,6 +43,21 @@ function App() {
             <Route path="/contact" exact>
               <ContactPage />
             </Route>
+            <Route
+              path="/github"
+              component={() => {
+                window.location.href = "https://github.com/Leo599simplon/";
+                return null;
+              }}
+            />
+            <Route
+              path="/linkedin"
+              component={() => {
+                window.location.href =
+                  "https://www.linkedin.com/in/hutinLeo599/";
+                return null;
+              }}
+            />
           </Switch>
         </div>
       </div>
