@@ -29,6 +29,11 @@
   font-size: larger;
 }
 
+.svg-inline--fa.fa-linkedin.fa-w-14.icon.li {
+  width: 4rem;
+  height: 4rem;
+}
+
 .icons {
   display: flex;
   align-items: center;
@@ -45,7 +50,7 @@
       color: #0e76a8;
     }
     .gh:hover {
-      color: rgba(134, 72, 72, 0.842);
+      color: rgba(233, 71, 71, 0.842);
     }
   }
 }

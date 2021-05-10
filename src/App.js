@@ -6,7 +6,6 @@ import AboutPage from "./Pages/AboutPage";
 import PortfliosPage from "./Pages/PortfoliosPage";
 import BlogsPage from "./Pages/BlogsPage";
 import ContactPage from "./Pages/ContactPage";
-import wallpaper from "./img/wallpaper.jpg";
 import { useState } from "react";
 
 function App() {

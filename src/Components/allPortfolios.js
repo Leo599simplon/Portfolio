@@ -1,68 +1,69 @@
-import port1 from "../img/portImages/maya-1.jpg";
-import port2 from "../img/portImages/port1.jpg";
-import port3 from "../img/portImages/port2.jpg";
-import port4 from "../img/portImages/port3.jpg";
-import port6 from "../img/portImages/port5.jpg";
-import port7 from "../img/portImages/port6.jpg";
+import shifumi2 from "../img/portImages/shifumi2.jpg";
+import tetris from "../img/portImages/tetris.jpg";
+import retravailler from "../img/portImages/retravailler.png";
+import campus from "../img/portImages/campus.jpg";
+import port3 from "../img/portImages/port3.jpg";
+import poste from "../img/portImages/poste.jpg";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const portfolios = [
   {
     id: 1,
     category: "Javascript",
-    link1: "www.github.com",
-    icon1: "G",
-    image: port1,
-    title: "Shifoumi JS",
+    link1: "https://github.com/Leo599simplon/Shifoumi",
+    icon1: <FontAwesomeIcon icon={faGithub} />,
+    image: shifumi2,
+    title: "shifoumi Vanilla JS",
   },
   {
     id: 2,
     category: "Javascript",
-    link1: "www.youtube.com",
-    link2: "www.github.com",
-    icon1: "G",
-    icon2: "Y",
-    image: port2,
-    title: "Tetris JS",
+    link1: "https://github.com/Leo599simplon/",
+    icon1: <FontAwesomeIcon icon={faGithub} />,
+    image: tetris,
+    title: "Tetris Vanilla JS",
   },
   {
     id: 3,
     category: "Javascript",
-    link1: "www.youtube.com",
+    link1: "www.github.com",
     link2: "www.github.com",
-    icon1: "G",
-    icon2: "Y",
+    icon1: <FontAwesomeIcon icon={faGithub} />,
+    icon2: <FontAwesomeIcon icon={faGlobe} />,
     image: port3,
-    title: "Application web de recherche JS",
+    title: "Application web de recherche",
   },
   {
     id: 4,
     category: "PHP",
-    link1: "www.youtube.com",
-    link2: "www.github.com",
-    icon1: "G",
-    icon2: "Y",
-    image: port4,
+    link1: "https://github.com/mediatorviolet/Retravailler.re",
+    link2: "https://retravailler.herokuapp.com/",
+    icon1: <FontAwesomeIcon icon={faGithub} />,
+    icon2: <FontAwesomeIcon icon={faGlobe} />,
+    image: retravailler,
     title: "Retravailler.re",
   },
   {
     id: 5,
     category: "PHP",
-    link1: "www.youtube.com",
-    link2: "www.github.com",
-    icon1: "G",
-    icon2: "Y",
-    image: port6,
-    title: "Marmite 974",
+    link1: "https://github.com/Leo599simplon/Gestion-Ordinateur",
+    link2: "https://gestion-ordinateur-leo.herokuapp.com/",
+    icon1: <FontAwesomeIcon icon={faGithub} />,
+    icon2: <FontAwesomeIcon icon={faGlobe} />,
+    image: poste,
+    title: "Administration de poste/sessions",
   },
   {
     id: 6,
     category: "HTML",
-    link1: "www.youtube.com",
-    link2: "www.github.com",
-    icon1: "G",
-    icon2: "Y",
-    image: port7,
-    title: "Bootstrap - Campus de l'oasis",
+    link1: "https://github.com/Leo599simplon/Leo599simplon.github.io",
+    link2: "https://leo599simplon.github.io/",
+    icon1: <FontAwesomeIcon icon={faGithub} />,
+    icon2: <FontAwesomeIcon icon={faGlobe} />,
+    image: campus,
+    title: "Campus de l'oasis",
   },
 ];
 
