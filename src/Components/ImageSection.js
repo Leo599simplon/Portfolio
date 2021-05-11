@@ -24,7 +24,7 @@ function ImageSection() {
             <p>: Leo Hutin</p>
             <p>: 32 ans</p>
             <p>: Français, anglais</p>
-            <p>: Randonnée, lecture, tennis de &nbsp;&nbsp;table</p>
+            <p>: Randonnée, lecture, tennis de table</p>
           </div>
         </div>
         <button className="btn">Télécharger mon CV</button>
