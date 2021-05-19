@@ -1,3 +1,4 @@
+// portfolios categories
 import React from "react";
 
 function Categories({ filter, categories }) {
