@@ -8,7 +8,7 @@ function AboutPage() {
     <div className="AboutPage">
       <Title title={"À propos de moi"} span={"À propos de moi"} />
       <ImageSection />
-      <Title title={"Mes compétences"} span={"Mes compétences"} />
+      <Title title={"Mes compétences"} span={""} />
       <ul className="compItems">
         <SkillsSection skill={"Javascript"} />
         <SkillsSection skill={"React Js"} />

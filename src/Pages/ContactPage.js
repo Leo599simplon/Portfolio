@@ -9,7 +9,7 @@ function ContactPage() {
   return (
     <div>
       <div className="title">
-        <Title title={"Me contacter"} span={"Me contacter"} />
+        <Title title={"Me contacter"} span={""} />
       </div>
       <div className="ContactPage">
         <div className="map-sect">
@@ -32,7 +32,7 @@ function ContactPage() {
           />
           <ContactItem
             icon={email}
-            text1={"Leo599simplon@gmail.com"}
+            text2={"Leo599simplon@gmail.com"}
             title={"Email"}
           />
         </div>
