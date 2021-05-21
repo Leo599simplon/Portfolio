@@ -15,6 +15,7 @@ function AboutPage() {
         <SkillsSection skill={"Wordpress"} />
         <SkillsSection skill={"MySQL"} />
         <SkillsSection skill={"Figma"} />
+        <SkillsSection skill={"Bootstrap"} />
         <SkillsSection skill={"Laravel"} />
         <SkillsSection skill={"PHP"} />
         <SkillsSection skill={"Web design"} />

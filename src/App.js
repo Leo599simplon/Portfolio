@@ -28,7 +28,7 @@ function App() {
       <div className="main-content">
         <div className="content">
           <Switch>
-            <Route path="/" onClick={navClick} exact>
+            <Route path="/" exact>
               <HomePage />
             </Route>
             <Route path="/about" exact>
@@ -55,6 +55,15 @@ function App() {
               component={() => {
                 window.location.href =
                   "https://www.linkedin.com/in/hutinLeo599/";
+                return null;
+              }}
+            />
+
+            <Route
+              path="/cv"
+              component={() => {
+                window.location.href =
+                  "https://drive.google.com/uc?export=download&id=1HvcUDjSZdjnedIMrdR1dnLBLmqA8Jx8z";
                 return null;
               }}
             />
