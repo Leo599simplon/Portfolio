@@ -14,9 +14,7 @@ function HomePage() {
         <h1 className="hero-text">
           <span> Leo Hutin</span>
         </h1>
-        <p className="h-sub-text">
-          Développeur en herbe / en recherche d'alternance
-        </p>
+        <p className="h-sub-text">Développeur en herbe</p>
         <div className="icons">
           <Link to="linkedin" className="icon-holder">
             <FontAwesomeIcon icon={faLinkedin} className="icon li" />
